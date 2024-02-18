@@ -19,8 +19,8 @@
  
 #define OPEN                          1
 #define CLOSE                         0
-#define ENABLE                        1
-#define DISABLE                       0
+#define NRF_ENABLE                        1
+#define NRF_DISABLE                       0
 #define SPI_OFF                       1
 #define SPI_ON                        0
 #define CE_OFF                        0
@@ -48,7 +48,7 @@
 #define POWER_SAVING                  0X02
 #define TURN_OFF                      0X03
 
-#define RESET                         1
+#define DO_RESET                         1
 #define NO_RESET                      0
 #define NO_ACK_MODE                   1
 #define ACK_MODE                      0
